@@ -1,13 +1,14 @@
 {
   "latestVersion": "3.0.4",
   "title": "WF V3.0.4 Beta Available",
-  "message": "Beta update test: this version adds a Discord button.",
+  "message": "Beta update test: this version auto-installs and adds a Discord button.",
   "notes": [
     "Added Discord button in More > Links.",
     "Discord contact shows @wizardftbl inside the AE panel.",
-    "Updater downloads the zip and verifies it before opening the folder."
+    "Updater downloads the zip to temp, verifies it, extracts it, runs the installer, then deletes temp files."
   ],
   "downloadUrl": "https://raw.githubusercontent.com/workflowenhancer-del/workflowenhancer/main/releases/WF%20V3.0.4%20Beta.zip",
-  "sha256": "f6b741ab6dcb9b50fbffc8cbb1efbe7945b021da000285df1cad746a6f635c7e",
+  "installerWindows": "install_windows.bat",
+  "sha256": "eae1b7a3a83e02946852dd3898ff327436afed535df023a8306bd48f95006421",
   "critical": false
 }
